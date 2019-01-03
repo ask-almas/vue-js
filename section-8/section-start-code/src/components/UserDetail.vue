@@ -3,6 +3,7 @@
         <h3>You may view the User Details here</h3>
         <p>Many Details</p>
         <p>User Name: {{switchName()}}</p>
+        <p>User age: {{userAge}}</p>
         <button @click="resetName">Reset Name 1</button>
         <button @click="resetFn">Reset Name 2</button>
     </div>
@@ -14,6 +15,7 @@
             myName: {
                 type: String
             },
+            userAge: Number,
             resetFn: Function
         },
         methods: {
