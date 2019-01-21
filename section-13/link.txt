@@ -1,0 +1,2 @@
+Official Docs - Filters: https://vuejs.org/v2/guide/filters.html
+Official Docs - Mixins: http://vuejs.org/guide/mixins.html
