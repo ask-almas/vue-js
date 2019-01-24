@@ -1,0 +1,2 @@
+Vuex Github Page: https://github.com/vuejs/vuex
+Vuex Documenation: https://vuex.vuejs.org/en/
