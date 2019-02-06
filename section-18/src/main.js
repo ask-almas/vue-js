@@ -8,7 +8,7 @@ import store from './store/store'
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
-Vue.http.options.root = 'https://vuejs-stock-trader-b9a84.firebaseio.com/';
+Vue.http.options.root = '';
 
 const router = new VueRouter({
   mode: 'history',

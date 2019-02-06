@@ -4,7 +4,7 @@ import VueResource from 'vue-resource'
 
 Vue.use(VueResource);
 
-Vue.http.options.root = 'https://vuejs-http-d912c.firebaseio.com/';
+Vue.http.options.root = '';
 Vue.http.interceptors.push((request, next)=>{
   console.log(request);
   if(request.method=='POST'){

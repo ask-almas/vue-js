@@ -32,7 +32,7 @@ export default new Vuex.Store({
         },expirationTime*1000);
     },
     signup({commit, dispatch}, authData){
-      axios.post('/signupNewUser?key=AIzaSyA9DxHssdPzwS9vkjC5W7a8SPVS82m3fZ0',
+      axios.post('',
           {
             email: authData.email,
             password: authData.password,
@@ -54,7 +54,7 @@ export default new Vuex.Store({
       }).catch(error=>console.log(error));
     },
     login({commit, dispatch}, authData){
-      axios.post('/verifyPassword?key=AIzaSyA9DxHssdPzwS9vkjC5W7a8SPVS82m3fZ0',
+      axios.post('',
           {
             email: authData.email,
             password: authData.password,

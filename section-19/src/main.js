@@ -7,7 +7,7 @@ import Vuelidate from 'vuelidate'
 
 Vue.use(Vuelidate);
 
-axios.defaults.baseURL ='https://vuejs-axios-68089.firebaseio.com';
+axios.defaults.baseURL ='';
 // axios.defaults.headers.common['Authorization'] = 'Small-Auth';
 axios.defaults.headers.get['Accepts'] = 'application/json';
 
